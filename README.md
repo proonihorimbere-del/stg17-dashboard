@@ -1,3 +1,9 @@
+**Tableau de bord en ligne : <https://proonihorimbere-del.github.io/stg17-dashboard/>**
+
+Reconstruit en exécutant le notebook de ce dépôt sur la publication source. Dernière publication le 2026-09-30.
+
+---
+
 # Indicateurs de la sécurité alimentaire
 
 Tableau de bord bilingue (EN/FR) construit à partir de **9.0**, pages 1, 2.
