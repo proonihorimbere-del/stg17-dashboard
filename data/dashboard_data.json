@@ -1,0 +1,762 @@
+{
+ "meta": {
+  "publisher": {
+   "en": "National Institute of Statistics",
+   "fr": "Institut National de la Statistique"
+  },
+  "country": {
+   "en": "",
+   "fr": ""
+  },
+  "docTitle": {
+   "en": "9.0",
+   "fr": "9.0"
+  },
+  "period": {
+   "en": "",
+   "fr": ""
+  },
+  "sourceUrl": "#",
+  "licence": {
+   "en": "Source data: as published by the institute. Dashboard code: MIT.",
+   "fr": "Données source : telles que publiées par l'institut. Code : MIT."
+  },
+  "contact": {
+   "en": "Built at the STG17 technical workshop, lab 02.",
+   "fr": "Réalisé lors de l'atelier technique STG17, labo 02."
+  },
+  "defaultLang": "fr",
+  "synthetic": false,
+  "generated": "2026-09-30"
+ },
+ "areas": [
+  {
+   "id": "2020",
+   "fr": "2020",
+   "en": "2020"
+  },
+  {
+   "id": "2021",
+   "fr": "2021",
+   "en": "2021"
+  },
+  {
+   "id": "calories-kcal-pers-j",
+   "fr": "CALORIES (KCAL/PERS/J)",
+   "en": "Calories (kcal/person/day)"
+  },
+  {
+   "id": "grand-total",
+   "fr": "Grand total",
+   "en": "Grand total"
+  },
+  {
+   "id": "lipides-g-pers-j",
+   "fr": "LIPIDES (G/PERS/J)",
+   "en": "Lipids (g/person/day)"
+  },
+  {
+   "id": "proteines-g-pers-j",
+   "fr": "PROTEINES (G/PERS/J)",
+   "en": "Proteins (g/person/day)"
+  },
+  {
+   "id": "produits-animaux",
+   "fr": "Produits animaux",
+   "en": "Animal products"
+  },
+  {
+   "id": "produits-vegetaux",
+   "fr": "Produits végétaux",
+   "en": "Plant products"
+  }
+ ],
+ "kpis": [
+  {
+   "labels": {
+    "en": "Undernourished population, 2021 (million)",
+    "fr": "Population sous‑alimentée, 2021 (million)"
+   },
+   "value": 3.19,
+   "unit": {
+    "en": "million",
+    "fr": "million"
+   },
+   "delta": null,
+   "deltaLabel": {
+    "en": "vs None",
+    "fr": "vs None"
+   },
+   "good": "down",
+   "highlight": false
+  },
+  {
+   "labels": {
+    "en": "Food loss index, 2021 (%)",
+    "fr": "Indice des pertes alimentaires, 2021 (%)"
+   },
+   "value": 99.97,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "delta": null,
+   "deltaLabel": {
+    "en": "vs None",
+    "fr": "vs None"
+   },
+   "good": "down",
+   "highlight": false
+  },
+  {
+   "labels": {
+    "en": "Calories per capita, 2020 (kcal/person/day)",
+    "fr": "Calories par tête, 2020 (kcal/personne/jour)"
+   },
+   "value": 2241,
+   "unit": {
+    "en": "kcal/person/day",
+    "fr": "Kcal/pers/jour"
+   },
+   "delta": null,
+   "deltaLabel": {
+    "en": "vs None",
+    "fr": "vs None"
+   },
+   "good": "down",
+   "highlight": false
+  },
+  {
+   "labels": {
+    "en": "Total calorie availability, 2021 (%)",
+    "fr": "Disponibilité totale des calories, 2021 (%)"
+   },
+   "value": 2274,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "delta": null,
+   "deltaLabel": {
+    "en": "vs None",
+    "fr": "vs None"
+   },
+   "good": "down",
+   "highlight": false
+  }
+ ],
+ "series": {
+  "population_undernourished": {
+   "unit": {
+    "en": "million",
+    "fr": "million"
+   },
+   "periods": [
+    "Population sous-alimentée (en millions)"
+   ],
+   "values": {
+    "2020": [
+     3.26
+    ],
+    "2021": [
+     3.19
+    ]
+   }
+  },
+  "indice_pertes_alimentaires": {
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "periods": [
+    "Indice des Pertes Alimentaires"
+   ],
+   "values": {
+    "2021": [
+     99.97
+    ]
+   }
+  },
+  "disponibilites_par_tete": {
+   "unit": {
+    "en": "kcal/person/day",
+    "fr": "Kcal/pers/jour"
+   },
+   "periods": [
+    "2020",
+    "2021",
+    "Moyenne"
+   ],
+   "values": {
+    "calories-kcal-pers-j": [
+     2241,
+     2274,
+     2257.5
+    ],
+    "lipides-g-pers-j": [
+     21,
+     23,
+     22
+    ],
+    "proteines-g-pers-j": [
+     63,
+     63,
+     63
+    ]
+   }
+  },
+  "disponibilite_calories_par_groupe": {
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "periods": [
+    "2020",
+    "2021",
+    "Moyenne"
+   ],
+   "values": {
+    "grand-total": [
+     2241,
+     2274,
+     22
+    ],
+    "produits-animaux": [
+     60,
+     54,
+     63
+    ],
+    "produits-vegetaux": [
+     92.8,
+     105.4,
+     99.1
+    ]
+   }
+  }
+ },
+ "views": [
+  {
+   "id": "population_undernourished",
+   "chart": "grouped",
+   "tab": {
+    "en": "Undernourished Population",
+    "fr": "Population sous‑alimentée"
+   },
+   "title": {
+    "en": "Population undernourished (millions)",
+    "fr": "Population sous‑alimentée (millions)"
+   },
+   "sub": {
+    "en": "Numbers for 2020 and 2021.",
+    "fr": "Valeurs pour 2020 et 2021."
+   },
+   "lede": {
+    "en": "Shows the change between 2020 and 2021.",
+    "fr": "Montre l’évolution entre 2020 et 2021."
+   },
+   "src": {
+    "en": "",
+    "fr": ""
+   }
+  },
+  {
+   "id": "indice_pertes_alimentaires",
+   "chart": "bar",
+   "tab": {
+    "en": "Food Loss Index",
+    "fr": "Indice des pertes alimentaires"
+   },
+   "title": {
+    "en": "Food loss index (percent)",
+    "fr": "Indice des pertes alimentaires (pourcentage)"
+   },
+   "sub": {
+    "en": "Food loss index for 2021.",
+    "fr": "Indice des pertes alimentaires pour 2021."
+   },
+   "lede": {
+    "en": "A single‑year measure of food loss.",
+    "fr": "Mesure de la perte alimentaire pour une année."
+   },
+   "src": {
+    "en": "",
+    "fr": ""
+   }
+  },
+  {
+   "id": "disponibilites_par_tete",
+   "chart": "line",
+   "tab": {
+    "en": "Nutrient availability per capita",
+    "fr": "Disponibilités nutritionnelles par tête"
+   },
+   "title": {
+    "en": "Per‑capita daily availability of calories, proteins and lipids",
+    "fr": "Disponibilité quotidienne par tête des calories, protéines et lipides"
+   },
+   "sub": {
+    "en": "Trends for 2020‑2021 and average.",
+    "fr": "Évolutions pour 2020‑2021 et moyenne."
+   },
+   "lede": {
+    "en": "Lines represent each nutrient over time.",
+    "fr": "Les lignes représentent chaque nutriment dans le temps."
+   },
+   "src": {
+    "en": "",
+    "fr": ""
+   }
+  },
+  {
+   "id": "disponibilite_calories_par_groupe",
+   "chart": "line",
+   "tab": {
+    "en": "Calorie availability by product group",
+    "fr": "Disponibilité des calories par groupe de produits"
+   },
+   "title": {
+    "en": "Calorie availability per capita by product group",
+    "fr": "Disponibilité des calories par tête et par groupe de produits"
+   },
+   "sub": {
+    "en": "Trends for 2020‑2021 and average.",
+    "fr": "Évolutions pour 2020‑2021 et moyenne."
+   },
+   "lede": {
+    "en": "Shows how animal and plant products contribute to total calories.",
+    "fr": "Montre la contribution des produits animaux et végétaux aux calories totales."
+   },
+   "src": {
+    "en": "",
+    "fr": ""
+   }
+  }
+ ],
+ "facts": [
+  {
+   "indicator": "population_undernourished",
+   "area": "2020",
+   "period": "Population sous-alimentée (en millions)",
+   "value": 3.26,
+   "unit": {
+    "en": "million",
+    "fr": "million"
+   },
+   "page": 1,
+   "snippet": "De 2020 à 2021, la population sous-alimentée est passée de 3,26 à 3,19 millions d'habitants.",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "population_undernourished",
+   "area": "2021",
+   "period": "Population sous-alimentée (en millions)",
+   "value": 3.19,
+   "unit": {
+    "en": "million",
+    "fr": "million"
+   },
+   "page": 1,
+   "snippet": "De 2020 à 2021, la population sous-alimentée est passée de 3,26 à 3,19 millions d'habitants.",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "indice_pertes_alimentaires",
+   "area": "2021",
+   "period": "Indice des Pertes Alimentaires",
+   "value": 99.97,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "En effet, en 2021, le niveau de l'Indice s'établit à 99,97%.",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilites_par_tete",
+   "area": "calories-kcal-pers-j",
+   "period": "2020",
+   "value": 2241,
+   "unit": {
+    "en": "kcal/person/day",
+    "fr": "Kcal/pers/jour"
+   },
+   "page": 2,
+   "snippet": "- Amélioration de l'intégration statistique nationale à travers la mise en place du Groupe CALORIES (KCAL/PERS/J) 2 241 2 274 2 257,5 6.5. Taux d'Autosuffisance Alimentaire (TAS)",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilites_par_tete",
+   "area": "calories-kcal-pers-j",
+   "period": "2021",
+   "value": 2274,
+   "unit": {
+    "en": "kcal/person/day",
+    "fr": "Kcal/pers/jour"
+   },
+   "page": 2,
+   "snippet": "- Amélioration de l'intégration statistique nationale à travers la mise en place du Groupe CALORIES (KCAL/PERS/J) 2 241 2 274 2 257,5 6.5. Taux d'Autosuffisance Alimentaire (TAS)",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilites_par_tete",
+   "area": "calories-kcal-pers-j",
+   "period": "Moyenne",
+   "value": 2257.5,
+   "unit": {
+    "en": "kcal/person/day",
+    "fr": "Kcal/pers/jour"
+   },
+   "page": 2,
+   "snippet": "- Amélioration de l'intégration statistique nationale à travers la mise en place du Groupe CALORIES (KCAL/PERS/J) 2 241 2 274 2 257,5 6.5. Taux d'Autosuffisance Alimentaire (TAS)",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilites_par_tete",
+   "area": "proteines-g-pers-j",
+   "period": "2020",
+   "value": 63,
+   "unit": {
+    "en": "g/person/day",
+    "fr": "g/pers/j"
+   },
+   "page": 2,
+   "snippet": "Technique de Travail sur les Bilans Alimentaires, tout comme ils constituent un input pour PROTEINES (G/PERS/J) 63 63 63",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilites_par_tete",
+   "area": "proteines-g-pers-j",
+   "period": "2021",
+   "value": 63,
+   "unit": {
+    "en": "g/person/day",
+    "fr": "g/pers/j"
+   },
+   "page": 2,
+   "snippet": "Technique de Travail sur les Bilans Alimentaires, tout comme ils constituent un input pour PROTEINES (G/PERS/J) 63 63 63",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilites_par_tete",
+   "area": "proteines-g-pers-j",
+   "period": "Moyenne",
+   "value": 63,
+   "unit": {
+    "en": "g/person/day",
+    "fr": "g/pers/j"
+   },
+   "page": 2,
+   "snippet": "Technique de Travail sur les Bilans Alimentaires, tout comme ils constituent un input pour PROTEINES (G/PERS/J) 63 63 63",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilites_par_tete",
+   "area": "lipides-g-pers-j",
+   "period": "2020",
+   "value": 21,
+   "unit": {
+    "en": "g/person/day",
+    "fr": "g/pers/j"
+   },
+   "page": 2,
+   "snippet": "LIPIDES (G/PERS/J) 21 23 22",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilites_par_tete",
+   "area": "lipides-g-pers-j",
+   "period": "2021",
+   "value": 23,
+   "unit": {
+    "en": "g/person/day",
+    "fr": "g/pers/j"
+   },
+   "page": 2,
+   "snippet": "LIPIDES (G/PERS/J) 21 23 22",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilites_par_tete",
+   "area": "lipides-g-pers-j",
+   "period": "Moyenne",
+   "value": 22,
+   "unit": {
+    "en": "g/person/day",
+    "fr": "g/pers/j"
+   },
+   "page": 2,
+   "snippet": "LIPIDES (G/PERS/J) 21 23 22",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilite_calories_par_groupe",
+   "area": "produits-vegetaux",
+   "period": "2020",
+   "value": 92.8,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 2,
+   "snippet": "Produits végétaux 92,8 105,4 99,1",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilite_calories_par_groupe",
+   "area": "produits-vegetaux",
+   "period": "2021",
+   "value": 105.4,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 2,
+   "snippet": "Produits végétaux 92,8 105,4 99,1",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilite_calories_par_groupe",
+   "area": "produits-vegetaux",
+   "period": "Moyenne",
+   "value": 99.1,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 2,
+   "snippet": "Produits végétaux 92,8 105,4 99,1",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilite_calories_par_groupe",
+   "area": "produits-animaux",
+   "period": "2020",
+   "value": 60,
+   "unit": {
+    "en": "kcal/person/day",
+    "fr": "Kcal/pers/jour"
+   },
+   "page": 2,
+   "snippet": "Produits animaux 60 54 63",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilite_calories_par_groupe",
+   "area": "produits-animaux",
+   "period": "2021",
+   "value": 54,
+   "unit": {
+    "en": "kcal/person/day",
+    "fr": "Kcal/pers/jour"
+   },
+   "page": 2,
+   "snippet": "Produits animaux 60 54 63",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilite_calories_par_groupe",
+   "area": "produits-animaux",
+   "period": "Moyenne",
+   "value": 63,
+   "unit": {
+    "en": "kcal/person/day",
+    "fr": "Kcal/pers/jour"
+   },
+   "page": 2,
+   "snippet": "Produits animaux 60 54 63",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "disponibilite_calories_par_groupe",
+   "area": "grand-total",
+   "period": "2020",
+   "value": 2241,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 2,
+   "snippet": "Grand total 2 241 2 274 22",
+   "status": "warn",
+   "note": {
+    "en": "unité « None » non autorisée pour disponibilite_calories_par_groupe",
+    "fr": "unité « None » non autorisée pour disponibilite_calories_par_groupe"
+   }
+  },
+  {
+   "indicator": "disponibilite_calories_par_groupe",
+   "area": "grand-total",
+   "period": "2021",
+   "value": 2274,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 2,
+   "snippet": "Grand total 2 241 2 274 22",
+   "status": "warn",
+   "note": {
+    "en": "unité « None » non autorisée pour disponibilite_calories_par_groupe",
+    "fr": "unité « None » non autorisée pour disponibilite_calories_par_groupe"
+   }
+  },
+  {
+   "indicator": "disponibilite_calories_par_groupe",
+   "area": "grand-total",
+   "period": "Moyenne",
+   "value": 22,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 2,
+   "snippet": "Grand total 2 241 2 274 22",
+   "status": "warn",
+   "note": {
+    "en": "unité « None » non autorisée pour disponibilite_calories_par_groupe",
+    "fr": "unité « None » non autorisée pour disponibilite_calories_par_groupe"
+   }
+  }
+ ],
+ "indicators": {
+  "population_undernourished": {
+   "fr": "Population sous-alimentée (en millions) de 2020 à 2021",
+   "en": "Undernourished population (in millions) 2020–2021"
+  },
+  "indice_pertes_alimentaires": {
+   "fr": "Indice des Pertes Alimentaires",
+   "en": "Food Loss Index"
+  },
+  "disponibilites_par_tete": {
+   "fr": "Tableau 1: Disponibilités par tête et par jour des calories, protéines et lipides de 2020-2021",
+   "en": "Table 1: Per capita daily availability of calories, proteins and lipids 2020‑2021"
+  },
+  "disponibilite_calories_par_groupe": {
+   "fr": "Tableau 2: Disponibilité des calories par tête et par jour, par groupe de produits",
+   "en": "Table 2: Per capita daily calorie availability by product group"
+  }
+ },
+ "i18n": {
+  "en": {
+   "sourceDoc": "Source publication",
+   "tabOverview": "Overview",
+   "tabData": "Data & sources",
+   "filterLabel": "Areas",
+   "reset": "Reset",
+   "searchPh": "Search an indicator, an area, a year…",
+   "btnCsv": "Download CSV",
+   "btnJson": "Download JSON",
+   "thIndicator": "Indicator",
+   "thArea": "Area",
+   "thPeriod": "Period",
+   "thValue": "Value",
+   "thUnit": "Unit",
+   "thPage": "Page",
+   "thStatus": "Check",
+   "noRows": "No figure matches this search.",
+   "statusOk": "Verified",
+   "statusWarn": "To review",
+   "provLabel": "Read from the source document, page",
+   "calloutTitle": "Read this before reusing the figures",
+   "calloutBody": "These figures were extracted from a PDF by a language model and then checked automatically against the source text. Rows marked “To review” failed at least one check and have not been confirmed by a statistician. Always cite the original publication, not this dashboard.",
+   "dataTitle": "Data & sources",
+   "dataLede": "Every figure on this dashboard, with the page it came from and the line of text it was read from. Search, sort, open a row to see the source, export.",
+   "limTitle": "Limitations",
+   "methTitle": "How this dashboard was built",
+   "methBody": "Text was extracted from the PDF page by page. A rules-based reader and a language model each transcribed the tables independently, and every cell was checked for page provenance, quoted evidence, unit and range, reconciliation with published totals, and agreement between the two readings. The notebook, the prompts and the verification report are in the repository.",
+   "fSource": "Source",
+   "fLicence": "Licence",
+   "fBuilt": "Built with",
+   "fContact": "Contact",
+   "fBuiltBody": "Python, an LLM extraction pipeline, Chart.js. No tracking, no cookies, no server — a single HTML file.",
+   "stamp": "Dashboard generated on {date}. Figures are the responsibility of the source institution; the presentation is the responsibility of the team that built this page.",
+   "syntheticWarn": "Demonstration data — fictional country, for training purposes only.",
+   "kicker": "",
+   "title": "Food Security Indicators",
+   "subtitle": "Key statistics on undernourishment, food loss and nutrient availability for 2020‑2021.",
+   "ovTitle": "Overview",
+   "ovLede": "This dashboard presents the main food‑security metrics for the most recent years.",
+   "limBody": "The unit for the indicator “Calorie availability by product group” is not specified (None), which is not permitted; consequently the values for this series should be interpreted with caution.",
+   "publisher": "National Institute of Statistics",
+   "period": ""
+  },
+  "fr": {
+   "sourceDoc": "Publication source",
+   "tabOverview": "Vue d'ensemble",
+   "tabData": "Données et sources",
+   "filterLabel": "Zones",
+   "reset": "Réinitialiser",
+   "searchPh": "Chercher un indicateur, une zone, une année…",
+   "btnCsv": "Télécharger le CSV",
+   "btnJson": "Télécharger le JSON",
+   "thIndicator": "Indicateur",
+   "thArea": "Zone",
+   "thPeriod": "Période",
+   "thValue": "Valeur",
+   "thUnit": "Unité",
+   "thPage": "Page",
+   "thStatus": "Contrôle",
+   "noRows": "Aucun chiffre ne correspond à cette recherche.",
+   "statusOk": "Vérifié",
+   "statusWarn": "À revoir",
+   "provLabel": "Lu dans le document source, page",
+   "calloutTitle": "À lire avant de réutiliser les chiffres",
+   "calloutBody": "Ces chiffres ont été extraits d'un PDF par un modèle de langage, puis contrôlés automatiquement contre le texte source. Les lignes marquées « À revoir » ont échoué à au moins un contrôle et n'ont pas été confirmées par un statisticien. Citez toujours la publication d'origine, pas ce tableau de bord.",
+   "dataTitle": "Données et sources",
+   "dataLede": "Tous les chiffres de ce tableau de bord, avec la page dont ils proviennent et la ligne de texte dont ils ont été lus. Cherchez, triez, ouvrez une ligne pour voir la source, exportez.",
+   "limTitle": "Limites",
+   "methTitle": "Comment ce tableau de bord a été construit",
+   "methBody": "Le texte a été extrait du PDF page par page. Un lecteur à base de règles et un modèle de langage ont transcrit les tableaux indépendamment, et chaque cellule a été contrôlée : provenance de page, citation vérifiée, unité et plage, réconciliation avec les totaux publiés, et accord entre les deux lectures. Le notebook, les prompts et le rapport de vérification sont dans le dépôt.",
+   "fSource": "Source",
+   "fLicence": "Licence",
+   "fBuilt": "Réalisé avec",
+   "fContact": "Contact",
+   "fBuiltBody": "Python, une chaîne d'extraction par LLM, Chart.js. Aucun traceur, aucun cookie, aucun serveur — un seul fichier HTML.",
+   "stamp": "Tableau de bord généré le {date}. Les chiffres relèvent de la responsabilité de l'institution source ; la présentation relève de la responsabilité de l'équipe qui a construit cette page.",
+   "syntheticWarn": "Données de démonstration — pays fictif, à usage pédagogique uniquement.",
+   "kicker": "",
+   "title": "Indicateurs de la sécurité alimentaire",
+   "subtitle": "Statistiques clés sur la sous‑alimentation, les pertes alimentaires et la disponibilité des nutriments pour 2020‑2021.",
+   "ovTitle": "Vue d’ensemble",
+   "ovLede": "Ce tableau de bord présente les principaux indicateurs de sécurité alimentaire pour les années récentes.",
+   "limBody": "L’unité de l’indicateur « Disponibilité des calories par tête et par groupe de produits » est non spécifiée (None), ce qui n’est pas autorisé ; les valeurs de cette série doivent donc être interprétées avec prudence.",
+   "publisher": "Institut National de la Statistique",
+   "period": ""
+  }
+ },
+ "overviewScatter": {
+  "x": "indice_pertes_alimentaires",
+  "y": "disponibilite_calories_par_groupe",
+  "title": {
+   "en": "Table 2: Per capita daily calorie availability by product group against Food Loss Index",
+   "fr": "Tableau 2: Disponibilité des calories par tête et par jour, par groupe de produits et Indice des Pertes Alimentaires"
+  },
+  "sub": {
+   "en": "One point per area — an association, not a causal claim",
+   "fr": "Un point par zone — une association, pas une relation causale"
+  },
+  "src": {
+   "en": "No significance test performed.",
+   "fr": "Aucun test de significativité réalisé."
+  }
+ }
+}
