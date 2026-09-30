@@ -1,0 +1,31 @@
+indicator,area,period,value,unit,page,model,provenance,evidence,unit_range,arithmetic,cross_read,status,reason
+population_undernourished,2020,Population sous-alimentée (en millions),3.26,million,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+population_undernourished,2021,Population sous-alimentée (en millions),3.19,million,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+indice_pertes_alimentaires,2021,Indice des Pertes Alimentaires,99.97,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+disponibilites_par_tete,CALORIES (KCAL/PERS/J),2020,2241.0,Kcal/pers/jour,2,openai/gpt-oss-120b,True,True,True,True,match,verified,
+disponibilites_par_tete,CALORIES (KCAL/PERS/J),2021,2274.0,Kcal/pers/jour,2,openai/gpt-oss-120b,True,True,True,True,match,verified,
+disponibilites_par_tete,CALORIES (KCAL/PERS/J),Moyenne,2257.5,Kcal/pers/jour,2,openai/gpt-oss-120b,True,True,True,True,row-only,verified,
+disponibilites_par_tete,PROTEINES (G/PERS/J),2020,63.0,g/pers/j,2,openai/gpt-oss-120b,True,True,True,True,match,verified,
+disponibilites_par_tete,PROTEINES (G/PERS/J),2021,63.0,g/pers/j,2,openai/gpt-oss-120b,True,True,True,True,match,verified,
+disponibilites_par_tete,PROTEINES (G/PERS/J),Moyenne,63.0,g/pers/j,2,openai/gpt-oss-120b,True,True,True,True,row-only,verified,
+disponibilites_par_tete,LIPIDES (G/PERS/J),2020,21.0,g/pers/j,2,openai/gpt-oss-120b,True,True,True,True,match,verified,
+disponibilites_par_tete,LIPIDES (G/PERS/J),2021,23.0,g/pers/j,2,openai/gpt-oss-120b,True,True,True,True,match,verified,
+disponibilites_par_tete,LIPIDES (G/PERS/J),Moyenne,22.0,g/pers/j,2,openai/gpt-oss-120b,True,True,True,True,row-only,verified,
+disponibilite_calories_par_groupe,Produits végétaux,2020,92.8,%,2,openai/gpt-oss-120b,True,True,True,True,match,verified,
+disponibilite_calories_par_groupe,Produits végétaux,2021,105.4,%,2,openai/gpt-oss-120b,True,True,True,True,match,verified,
+disponibilite_calories_par_groupe,Produits végétaux,Moyenne,99.1,%,2,openai/gpt-oss-120b,True,True,True,True,match,verified,
+disponibilite_calories_par_groupe,produits animaux,2020,96.8,%,2,openai/gpt-oss-120b,True,False,True,True,no-row,dropped,la ligne source citée n'apparaît pas sur cette page
+disponibilite_calories_par_groupe,produits animaux,2021,95.6,%,2,openai/gpt-oss-120b,True,False,True,True,no-row,dropped,la ligne source citée n'apparaît pas sur cette page
+disponibilite_calories_par_groupe,produits animaux,Moyenne,96.2,%,2,openai/gpt-oss-120b,True,False,True,True,no-row,dropped,la ligne source citée n'apparaît pas sur cette page
+disponibilite_calories_par_groupe,Produits végétaux,2020,2181.0,Kcal/pers/jour,2,openai/gpt-oss-120b,True,False,True,True,no-row,dropped,la ligne source citée n'apparaît pas sur cette page
+disponibilite_calories_par_groupe,Produits végétaux,2021,2220.0,Kcal/pers/jour,2,openai/gpt-oss-120b,True,False,True,True,no-row,dropped,la ligne source citée n'apparaît pas sur cette page
+disponibilite_calories_par_groupe,Produits végétaux,Moyenne,2257.5,Kcal/pers/jour,2,openai/gpt-oss-120b,True,False,True,True,no-row,dropped,la ligne source citée n'apparaît pas sur cette page
+disponibilite_calories_par_groupe,Ensemble,2020,92.9,%,2,openai/gpt-oss-120b,True,False,True,True,match,dropped,la ligne source citée n'apparaît pas sur cette page
+disponibilite_calories_par_groupe,Ensemble,2021,105.2,%,2,openai/gpt-oss-120b,True,False,True,True,match,dropped,la ligne source citée n'apparaît pas sur cette page
+disponibilite_calories_par_groupe,Ensemble,Moyenne,99.1,%,2,openai/gpt-oss-120b,True,False,True,True,match,dropped,la ligne source citée n'apparaît pas sur cette page
+disponibilite_calories_par_groupe,Produits animaux,2020,60.0,Kcal/pers/jour,2,openai/gpt-oss-120b,True,True,True,True,match,verified,
+disponibilite_calories_par_groupe,Produits animaux,2021,54.0,Kcal/pers/jour,2,openai/gpt-oss-120b,True,True,True,True,match,verified,
+disponibilite_calories_par_groupe,Produits animaux,Moyenne,63.0,Kcal/pers/jour,2,openai/gpt-oss-120b,True,True,True,True,row-only,verified,
+disponibilite_calories_par_groupe,Grand total,2020,2241.0,,2,openai/gpt-oss-120b,True,True,False,True,match,review,unité « None » non autorisée pour disponibilite_calories_par_groupe
+disponibilite_calories_par_groupe,Grand total,2021,2274.0,,2,openai/gpt-oss-120b,True,True,False,True,match,review,unité « None » non autorisée pour disponibilite_calories_par_groupe
+disponibilite_calories_par_groupe,Grand total,Moyenne,22.0,,2,openai/gpt-oss-120b,True,True,False,True,row-only,review,unité « None » non autorisée pour disponibilite_calories_par_groupe
